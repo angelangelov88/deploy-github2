@@ -20,12 +20,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,5 +32,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://angelangelov88.github.io/my-app"
+  "homepage": "https://angelangelov88.github.io/my-app",
+  "devDependencies": {
+   "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
+  }
 }
